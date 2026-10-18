@@ -65,7 +65,7 @@
 
 | Artists | Artist | Songs |
 | --- | --- | --- |
-| ![Artist library browser](screenshots/screenshot_artists.png)<br>Artists | ![Artist detail page with music and artist information](screenshots/screenshot_artist.png)<br>Artist detail | ![Songs library browser](screenshots/screenshot_songs.png)<br>Songs |
+| ![Artist library browser](screenshots/screenshot_artists2.png)<br>Artists | ![Artist detail page with music and artist information](screenshots/screenshot_artist2.png)<br>Artist detail | ![Songs library browser](screenshots/screenshot_songs.png)<br>Songs |
 
 <a id="download"></a>
 ## ⬇️ Download
