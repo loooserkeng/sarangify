@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/sarangify-logo.png" alt="SARANGIFY logo" width="104">
+  <img src="docs/sarangify-logo.png" alt="SARANGIFY logo" width="250">
 </p>
 
 <h1 align="center">SARANGIFY</h1>
