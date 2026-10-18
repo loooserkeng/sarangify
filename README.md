@@ -61,7 +61,7 @@
 
 | Home | Player | Albums |
 | --- | --- | --- |
-| ![Home screen with quick picks and library navigation](screenshots/screenshot_home2.png)<br>Home and quick picks | ![Now-playing screen with playback controls](screenshots/screenshot_player.png)<br>Now playing | ![Album library browser](screenshots/screenshot_albums.png)<br>Albums |
+| ![Home screen with quick picks and library navigation](screenshots/screenshot_home2.png)<br>Home and quick picks | ![Now-playing screen with playback controls](screenshots/screenshot_player2.png)<br>Now playing | ![Album library browser](screenshots/screenshot_albums.png)<br>Albums |
 
 | Artists | Artist | Songs |
 | --- | --- | --- |
