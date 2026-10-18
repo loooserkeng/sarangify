@@ -1,67 +1,40 @@
-# Music You
+# SARANGIFY
 
-An Android application for streaming music from YouTube Music.
+SARANGIFY is a dark-first Android music player based on the open-source Music You project. It searches YouTube Music, streams tracks, and keeps playback, playlists, and listening history available in one app.
 
-![Repository preview](./screenshots/repository_preview.jpg)
+## Features
 
-## ✨ Features
+- Background playback with a persistent queue, media controls, and Android Auto support
+- Search for songs, albums, artists, videos, and playlists
+- Cache tracks for offline playback
+- Save favorites, bookmark artists and albums, and manage local playlists
+- Fetch, display, and edit timed or unsynchronized lyrics
+- Playback history, sleep timer, skip silence, and loudness normalization
+- YouTube and YouTube Music playlist, track, and artist links
+- English, Spanish, German, French, Italian, Russian, and Turkish translations
 
-- Background playback
-- Cache songs for offline playback
-- Search for songs, albums, artists, videos and playlists
-- Bookmark artists and albums
-- Import playlists and manage local playlists
-- Fetch, display and edit songs lyrics or synchronized lyrics
-- Open YouTube and YouTube Music links by default
-- Player features, such as sleep timer and persistent queue
-- Audio features, such as skip silence and audio normalization
-- Other features, such as Android Auto support and invincible service
+## Technology
 
-### 🗒️ New features
+- Kotlin and Jetpack Compose with Material 3
+- AndroidX Media3 playback and MediaSession integration
+- Room for local database storage
+- Ktor-based networking, including the YouTube Music integration
+- Gradle Kotlin DSL, Android Gradle Plugin, and Java 17 bytecode targets
 
-- Material You redesign
-- Multilingual support
-- Quick picks selection customization
-- Swipe to enqueue and delete songs
+## Build
 
-## 🌐 Available languages
+Requirements: JDK compatible with the checked-in Gradle wrapper and Android Gradle Plugin, plus Android SDK platform API 37 (extension level 2) configured for the project. The app supports Android 7.0 (API 24) and later.
 
-- English
-- Spanish
-- German ([@siggi1984](https://github.com/siggi1984))
-- French ([@patxixi](https://github.com/patxixi) and [@Mickael81](https://github.com/Mickael81))
-- Italian ([@F3FFO](https://github.com/F3FFO))
+```sh
+./gradlew assembleDebug
+```
 
-## 📸 Screenshots
+The debug APK is produced under `app/build/outputs/apk/debug/`. No SARANGIFY release distribution URL is configured yet.
 
-<div>
-    <img src="./screenshots/screenshot_player.png" alt="Player" style="width: 30%;">
-    <img src="./screenshots/screenshot_home.png" alt="Home" style="width: 30%;">
-    <img src="./screenshots/screenshot_artist.png" alt="Artist" style="width: 30%;">
-    <img src="./screenshots/screenshot_songs.png" alt="Songs" style="width: 30%;">
-    <img src="./screenshots/screenshot_artists.png" alt="Artists" style="width: 30%;">
-    <img src="./screenshots/screenshot_albums.png" alt="Albums" style="width: 30%;">
-</div>
+## External services
 
-## 📲 Installation
+Music search, metadata, and stream resolution depend on YouTube Music services through the project's existing Innertube integration; availability and behavior can change independently of SARANGIFY. Lyrics may use Kugou. The About screen's update check and upstream source link still point to the original Music You GitHub project until SARANGIFY release and repository URLs are provided.
 
-[<img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png"
-alt="Get it on GitHub"
-height="80">](https://github.com/DanielSevillano/music-you/releases/latest)
+## Attribution and trademarks
 
-## 🌟 Inspiration
-
-- [ViMusic](https://github.com/vfsfitvnm/ViMusic)
-- [RiMusic](https://github.com/fast4x/RiMusic)
-- [ViTune](https://github.com/25huizengek1/ViTune)
-- [InnerTune](https://github.com/z-huang/InnerTune)
-- [OuterTune](https://github.com/OuterTune/OuterTune)
-- [Symphony](https://github.com/zyrouge/symphony)
-
-## ℹ️ Disclaimer
-
-This project and its contents are not affiliated with, funded, authorized, endorsed by, or in any
-way associated with YouTube, Google LLC or any of its affiliates and subsidiaries.
-
-Any trademark, service mark, trade name, or other intellectual property rights used in this project
-are owned by the respective owners.
+SARANGIFY is a rebrand based on [Music You by Daniel Sevillano](https://github.com/DanielSevillano/music-you). The original project license and required notices are retained in [LICENSE](LICENSE). YouTube, YouTube Music, Google, and all other marks belong to their respective owners. SARANGIFY is not affiliated with or endorsed by YouTube, Google, or Spotify.

@@ -123,7 +123,7 @@ fun OtherSettings() {
                             Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
                         )
                     } catch (_: ActivityNotFoundException) {
-                        context.toast("Couldn't find battery optimization settings, please whitelist Music You manually")
+                        context.toast(context.getString(R.string.battery_optimization_settings_missing))
                     }
                 }
             },

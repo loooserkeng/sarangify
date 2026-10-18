@@ -104,12 +104,12 @@ fun About() {
 
         ListItem(
             headlineContent = {
-                Text(text = stringResource(id = R.string.github))
+                Text(text = stringResource(id = R.string.upstream_source))
             },
             leadingContent = {
                 Icon(
                     painter = painterResource(id = R.drawable.github),
-                    contentDescription = stringResource(id = R.string.github)
+                    contentDescription = stringResource(id = R.string.upstream_source)
                 )
             },
             modifier = Modifier.clickable {
