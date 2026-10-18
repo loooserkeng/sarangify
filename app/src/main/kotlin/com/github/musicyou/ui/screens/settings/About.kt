@@ -104,16 +104,31 @@ fun About() {
 
         ListItem(
             headlineContent = {
-                Text(text = stringResource(id = R.string.upstream_source))
+                Text(text = stringResource(id = R.string.github_profile))
             },
             leadingContent = {
                 Icon(
                     painter = painterResource(id = R.drawable.github),
-                    contentDescription = stringResource(id = R.string.upstream_source)
+                    contentDescription = stringResource(id = R.string.github_profile)
                 )
             },
             modifier = Modifier.clickable {
-                uriHandler.openUri("https://github.com/DanielSevillano/music-you")
+                uriHandler.openUri("https://github.com/saranghaeyong")
+            }
+        )
+
+        ListItem(
+            headlineContent = {
+                Text(text = stringResource(id = R.string.source_code))
+            },
+            leadingContent = {
+                Icon(
+                    painter = painterResource(id = R.drawable.github),
+                    contentDescription = stringResource(id = R.string.source_code)
+                )
+            },
+            modifier = Modifier.clickable {
+                uriHandler.openUri("https://github.com/saranghaeyong/sarangify")
             }
         )
     }
@@ -176,7 +191,7 @@ fun About() {
 
                         FilledTonalButton(
                             onClick = {
-                                uriHandler.openUri("https://github.com/DanielSevillano/music-you/releases/latest")
+                                uriHandler.openUri("https://github.com/saranghaeyong/sarangify/releases/latest")
                             }
                         ) {
                             Icon(

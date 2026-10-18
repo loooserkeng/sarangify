@@ -1,6 +1,8 @@
 # SARANGIFY
 
-SARANGIFY is a dark-first Android music player based on the open-source Music You project. It searches YouTube Music, streams tracks, and keeps playback, playlists, and listening history available in one app.
+SARANGIFY is a dark-first Android music player. It searches YouTube Music, streams tracks, and keeps playback, playlists, and listening history available in one app.
+
+Source code and releases: [github.com/saranghaeyong/sarangify](https://github.com/saranghaeyong/sarangify).
 
 ## Features
 
@@ -23,7 +25,7 @@ SARANGIFY is a dark-first Android music player based on the open-source Music Yo
 
 ## Build
 
-Requirements: JDK compatible with the checked-in Gradle wrapper and Android Gradle Plugin, plus Android SDK platform API 37 (extension level 2) configured for the project. The app supports Android 7.0 (API 24) and later.
+Requirements: JDK compatible with the checked-in Gradle wrapper and Android Gradle Plugin, plus Android SDK platform API 37 (minor API level 2) configured for the project. The app supports Android 7.0 (API 24) and later.
 
 ```sh
 ./gradlew assembleDebug
@@ -33,8 +35,8 @@ The debug APK is produced under `app/build/outputs/apk/debug/`. No SARANGIFY rel
 
 ## External services
 
-Music search, metadata, and stream resolution depend on YouTube Music services through the project's existing Innertube integration; availability and behavior can change independently of SARANGIFY. Lyrics may use Kugou. The About screen's update check and upstream source link still point to the original Music You GitHub project until SARANGIFY release and repository URLs are provided.
+Music search, metadata, and stream resolution depend on YouTube Music services through the project's existing Innertube integration; availability and behavior can change independently of SARANGIFY. Lyrics may use Kugou. The About screen checks releases from the SARANGIFY GitHub repository.
 
 ## Attribution and trademarks
 
-SARANGIFY is a rebrand based on [Music You by Daniel Sevillano](https://github.com/DanielSevillano/music-you). The original project license and required notices are retained in [LICENSE](LICENSE). YouTube, YouTube Music, Google, and all other marks belong to their respective owners. SARANGIFY is not affiliated with or endorsed by YouTube, Google, or Spotify.
+SARANGIFY retains the original GPL-3.0 license and required notices in [LICENSE](LICENSE) and applicable source files. Those notices remain unchanged by the rebrand. YouTube, YouTube Music, Google, and all other marks belong to their respective owners. SARANGIFY is not affiliated with or endorsed by YouTube, Google, or Spotify.

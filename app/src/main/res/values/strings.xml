@@ -64,7 +64,8 @@
     <string name="service_lifetime_information">If battery optimizations are applied, the playback notification can suddenly disappear when paused.</string>
     <string name="service_lifetime_information_plus">Since Android 12, disabling battery optimizations is required for the "Invincible service" option to take effect.</string>
     <string name="about">About</string>
-    <string name="upstream_source">Upstream source (GitHub)</string>
+    <string name="github_profile">GitHub profile</string>
+    <string name="source_code">SARANGIFY source code</string>
     <string name="search">Search</string>
     <string name="featured">Featured</string>
     <string name="confirm">Confirm</string>
@@ -184,7 +185,7 @@
     <string name="new_version_available">New version available</string>
     <string name="no_updates_available">No updates available</string>
     <string name="version">Version %s</string>
-    <string name="open_in_github">View upstream release on GitHub</string>
+    <string name="open_in_github">View release on GitHub</string>
     <string name="battery_optimization_settings_missing">Couldn\'t find battery optimization settings. Please allow SARANGIFY manually.</string>
     <string name="gestures">Gestures</string>
     <string name="player_gestures">Player gestures</string>
