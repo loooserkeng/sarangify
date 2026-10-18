@@ -59,13 +59,13 @@
 <a id="screenshots"></a>
 ## 📱 Screenshots
 
-| Home | Player | Albums |
+| Home | Player | Settings |
 | --- | --- | --- |
-| ![Home screen with quick picks and library navigation](screenshots/screenshot_home2.png)<br>Home and quick picks | ![Now-playing screen with playback controls](screenshots/screenshot_player2.png)<br>Now playing | ![Album library browser](screenshots/screenshot_albums.png)<br>Albums |
+| ![Home screen with quick picks and library navigation](screenshots/screenshot_home2.png)<br>Home and quick picks | ![Now-playing screen with playback controls](screenshots/screenshot_player2.png)<br>Now playing | ![Album library browser](screenshots/screenshot_albums.png)<brSettings Panel |
 
-| Artists | Artist | Songs |
+| Playlist | Artist | Songs |
 | --- | --- | --- |
-| ![Artist library browser](screenshots/screenshot_artists2.png)<br>Artists | ![Artist detail page with music and artist information](screenshots/screenshot_artist2.png)<br>Artist detail | ![Songs library browser](screenshots/screenshot_songs2.png)<br>Songs |
+| ![Artist library browser](screenshots/screenshot_artists2.png)<br>Playlist | ![Artist detail page with music and artist information](screenshots/screenshot_artist2.png)<br>Artist detail | ![Songs library browser](screenshots/screenshot_songs2.png)<br>Songs |
 
 <a id="download"></a>
 ## ⬇️ Download
